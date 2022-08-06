@@ -1,0 +1,392 @@
+nav{
+    background-color: white;
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin-top:-10px;
+    margin-left: -10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17px;  
+    font-weight: 400;
+}
+
+li{
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-left: 13px;
+}
+
+.nav-div-list{
+    display: flex;
+    flex-wrap: row;
+    justify-content: right;
+    margin-top: -30px;
+    margin-right: 200px;
+    position: fixed;
+    
+}
+
+.nav-logo{
+    margin-top: 5px;
+    margin-left: 200px;
+    height: 33px;
+    width: 268px;
+    position: fixed;
+}
+
+#about {
+    color: #00bfa5;
+}
+
+#career{
+    color: #ababab;
+}
+#career:hover {
+    color: #00bfa5;
+}
+
+#depart{
+    color: #ababab;
+}
+#depart:hover {
+    color: #00bfa5;
+}
+
+.art1-logo{
+    margin: 50px;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+.art1-title{
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight:300;
+}
+#art2-div{
+    display: flex;
+}
+.art1-para1-div{
+    width: 400px;
+    height:200px;
+    margin: 25px;
+    margin-left: 240px;   
+}
+.art1-para1-div p{
+    font-weight: 400;
+    color:#747474;
+    font-size: 18px;
+}
+.art1-para2-div{
+    width: 400px;
+    height:200px;
+    margin: 25px;
+}
+
+.art1-para2-div p{
+    font-weight: 400;
+    color:#747474;
+    font-size: 18px;
+}
+
+#art3-div{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    height: 365px;
+    width: 285px;
+    margin: 5px;
+    padding:13px;
+}
+
+.box1-div{
+    background-color: #00ccb1;
+    border-radius: 20px;
+}
+
+.box2-div{
+    background-color: #3d83df;
+    border-radius: 20px;
+}
+
+.box3-div{
+    background-color: #1b2734;
+    border-radius: 20px;
+}
+
+.icon-patients{
+    margin-top: 40px;
+    margin-right: 175px;
+}
+
+.art3-h1-a{
+    margin-left: -50px;
+    font-weight: 400;
+    color: white;
+}
+
+.art3-h2-a{
+    margin-left: 43px;
+    text-align: left;
+    font-weight: 100;
+    font-size : 1.5em;
+    color: white;
+}
+
+.icon-doctors{
+    margin-top: 40px;
+    margin-right: 175px;
+}
+
+.art3-h1-b{
+    margin-left: -53px;
+    font-weight: 400;
+    color: white;
+}
+
+.art3-h2-b{
+    margin-left: 43px;
+    text-align: left;
+    font-weight: 100;
+    font-size : 1.5em;
+    color: white;
+}
+
+.icon-clinics{
+    margin-top: 40px;
+    margin-right: 175px;
+}
+
+.art3-h1-c{
+    margin-left: -63px;
+    font-weight: 400;
+    color: white;
+}
+
+.art3-h2-c{
+    margin-left: 43px;
+    text-align: left;
+    font-weight: 100;
+    font-size : 1.5em;
+    color: white;
+}
+
+.art3-slc-a{
+    margin-left: -25px;
+}
+
+.art3-slc-b{
+    text-align: left;
+    margin-top: 15px;
+    margin-left:  33px;
+}
+
+#art4-div{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+.art4-h1-div{
+    margin-left: 190px;
+}
+
+.art4-h1-div h1{
+    text-align: left;
+    color: #00b39b;
+    font-weight: 300;
+}
+
+.art6-h1{
+    text-align: center;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+}
+
+.art6-para{
+    text-align: center;
+    font-weight: 400;
+    color: #747474;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    width: 290px;
+    height: 333px;
+    margin:5px;
+    border-radius: 5px;
+}
+
+.div-ini{
+    display: flex;
+    margin-left: -300px;
+}
+
+.row-img{
+    width: 290px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+.row-sp{
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #747474;
+    cursor: pointer;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.btn-sm{
+    margin-left: 65px;
+    color:white;
+    font-size: 12px;
+    padding: 1em 1.5em;
+    background-color: #3d83df;
+    border-radius: 3px;
+}
+
+#art8-div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.art8-h1{
+    color: #333;
+    font-weight: 300;
+}
+
+.btn-lg{
+    color: white;
+    background-color: #3d83df;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 21px;
+    padding : 10px
+}
+
+.side-div{
+    width: 66%;
+    justify-content: left;
+    margin-left: -30px;
+}
+
+.rb{
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+}
+
+.second-rb{
+    width: 150px;
+    height: 70px;
+    margin: 5px;
+}
+
+.side-div-l1{
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+}
+
+.side-div-img{
+    margin-top: 23px;
+}
+
+#art5-div{
+    height: 650px;
+    width: 1360px;
+    background-color: #e5faf8;
+    margin-top: 50px;
+    margin-left: -20px;
+    display: flex;
+}
+
+.art5-div-a{
+    height: 500px;
+    width: 600px;
+    margin:50px;
+}
+
+.art5-div-b{
+    height: 600px;
+    width: 600px;
+    margin:50px;
+    text-align: left;
+}
+
+.art5-div-a h1{
+    color: #00b39b;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.art5-div-a p{
+    color: #747474;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.art5-img{
+    margin-top: 27px;
+}
+
+.ticket{
+    height: 260px;
+    width: 250px;
+    background-color: white;
+    margin: 5px;
+    color:#00b39b;
+    padding:5px;
+}
+
+.ticket p{
+    color: #747474;
+    margin-left:35px;
+}
+
+.ticket h3{
+    margin-left:35px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.flag-img{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.ticket-img{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.c1{
+    margin-top: 40px;
+}
+
+.c2{
+    margin-top: -30px;
+}
